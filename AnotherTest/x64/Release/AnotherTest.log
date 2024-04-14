@@ -1,0 +1,8 @@
+﻿  RandomGenerator.cpp
+C:\Users\guill\source\repos\AnotherTest 2\AnotherTest\RandomGenerator.cpp(27,1): error C2857: '#include' statement specified with the /Ycpch.h command-line option was not found in the source file
+  pch.cpp
+  WinMain.cpp
+  Tile.cpp
+C:\Users\guill\source\repos\AnotherTest 2\AnotherTest\Tile.cpp(24,1): error C2857: '#include' statement specified with the /Ycpch.h command-line option was not found in the source file
+  TileMap.cpp
+C:\Users\guill\source\repos\AnotherTest 2\AnotherTest\TileMap.cpp(10,1): error C2857: '#include' statement specified with the /Ycpch.h command-line option was not found in the source file
