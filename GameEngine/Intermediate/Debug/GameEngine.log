@@ -1,0 +1,164 @@
+﻿  Logger.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(21,25): error C2039: 'clock_t': is not a member of '`global namespace''
+  (compiling source file 'Source/Common/Logger.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(21,13): error C2873: 'clock_t': symbol cannot be used in a using-declaration
+  (compiling source file 'Source/Common/Logger.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(25,25): error C2039: 'asctime': is not a member of '`global namespace''
+  (compiling source file 'Source/Common/Logger.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(25,13): error C2873: 'asctime': symbol cannot be used in a using-declaration
+  (compiling source file 'Source/Common/Logger.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(26,25): error C2039: 'clock': is not a member of '`global namespace''
+  (compiling source file 'Source/Common/Logger.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(26,13): error C2873: 'clock': symbol cannot be used in a using-declaration
+  (compiling source file 'Source/Common/Logger.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(27,25): error C2039: 'strftime': is not a member of '`global namespace''
+  (compiling source file 'Source/Common/Logger.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(27,13): error C2873: 'strftime': symbol cannot be used in a using-declaration
+  (compiling source file 'Source/Common/Logger.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(29,25): error C2039: 'timespec': is not a member of '`global namespace''
+  (compiling source file 'Source/Common/Logger.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(29,13): error C2873: 'timespec': symbol cannot be used in a using-declaration
+  (compiling source file 'Source/Common/Logger.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(79,25): error C2039: 'ctime': is not a member of '`global namespace''
+  (compiling source file 'Source/Common/Logger.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(79,13): error C2873: 'ctime': symbol cannot be used in a using-declaration
+  (compiling source file 'Source/Common/Logger.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(80,25): error C2039: 'difftime': is not a member of '`global namespace''
+  (compiling source file 'Source/Common/Logger.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(80,13): error C2873: 'difftime': symbol cannot be used in a using-declaration
+  (compiling source file 'Source/Common/Logger.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(81,25): error C2039: 'gmtime': is not a member of '`global namespace''
+  (compiling source file 'Source/Common/Logger.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(81,13): error C2873: 'gmtime': symbol cannot be used in a using-declaration
+  (compiling source file 'Source/Common/Logger.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(82,25): error C2039: 'localtime': is not a member of '`global namespace''
+  (compiling source file 'Source/Common/Logger.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(82,13): error C2873: 'localtime': symbol cannot be used in a using-declaration
+  (compiling source file 'Source/Common/Logger.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(83,25): error C2039: 'mktime': is not a member of '`global namespace''
+  (compiling source file 'Source/Common/Logger.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(83,13): error C2873: 'mktime': symbol cannot be used in a using-declaration
+  (compiling source file 'Source/Common/Logger.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(84,25): error C2039: 'time': is not a member of '`global namespace''
+  (compiling source file 'Source/Common/Logger.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(84,13): error C2873: 'time': symbol cannot be used in a using-declaration
+  (compiling source file 'Source/Common/Logger.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(86,25): error C2039: 'timespec_get': is not a member of '`global namespace''
+  (compiling source file 'Source/Common/Logger.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(86,13): error C2873: 'timespec_get': symbol cannot be used in a using-declaration
+  (compiling source file 'Source/Common/Logger.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xthreads.h(127,84): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Source/Common/Logger.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xthreads.h(127,84): error C2143: syntax error: missing ',' before '*'
+  (compiling source file 'Source/Common/Logger.cpp')
+  
+  Time.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(21,25): error C2039: 'clock_t': is not a member of '`global namespace''
+  (compiling source file 'Source/Common/Time.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(21,13): error C2873: 'clock_t': symbol cannot be used in a using-declaration
+  (compiling source file 'Source/Common/Time.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(25,25): error C2039: 'asctime': is not a member of '`global namespace''
+  (compiling source file 'Source/Common/Time.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(25,13): error C2873: 'asctime': symbol cannot be used in a using-declaration
+  (compiling source file 'Source/Common/Time.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(26,25): error C2039: 'clock': is not a member of '`global namespace''
+  (compiling source file 'Source/Common/Time.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(26,13): error C2873: 'clock': symbol cannot be used in a using-declaration
+  (compiling source file 'Source/Common/Time.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(27,25): error C2039: 'strftime': is not a member of '`global namespace''
+  (compiling source file 'Source/Common/Time.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(27,13): error C2873: 'strftime': symbol cannot be used in a using-declaration
+  (compiling source file 'Source/Common/Time.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(29,25): error C2039: 'timespec': is not a member of '`global namespace''
+  (compiling source file 'Source/Common/Time.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(29,13): error C2873: 'timespec': symbol cannot be used in a using-declaration
+  (compiling source file 'Source/Common/Time.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(79,25): error C2039: 'ctime': is not a member of '`global namespace''
+  (compiling source file 'Source/Common/Time.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(79,13): error C2873: 'ctime': symbol cannot be used in a using-declaration
+  (compiling source file 'Source/Common/Time.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(80,25): error C2039: 'difftime': is not a member of '`global namespace''
+  (compiling source file 'Source/Common/Time.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(80,13): error C2873: 'difftime': symbol cannot be used in a using-declaration
+  (compiling source file 'Source/Common/Time.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(81,25): error C2039: 'gmtime': is not a member of '`global namespace''
+  (compiling source file 'Source/Common/Time.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(81,13): error C2873: 'gmtime': symbol cannot be used in a using-declaration
+  (compiling source file 'Source/Common/Time.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(82,25): error C2039: 'localtime': is not a member of '`global namespace''
+  (compiling source file 'Source/Common/Time.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(82,13): error C2873: 'localtime': symbol cannot be used in a using-declaration
+  (compiling source file 'Source/Common/Time.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(83,25): error C2039: 'mktime': is not a member of '`global namespace''
+  (compiling source file 'Source/Common/Time.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(83,13): error C2873: 'mktime': symbol cannot be used in a using-declaration
+  (compiling source file 'Source/Common/Time.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(84,25): error C2039: 'time': is not a member of '`global namespace''
+  (compiling source file 'Source/Common/Time.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(84,13): error C2873: 'time': symbol cannot be used in a using-declaration
+  (compiling source file 'Source/Common/Time.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(86,25): error C2039: 'timespec_get': is not a member of '`global namespace''
+  (compiling source file 'Source/Common/Time.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime(86,13): error C2873: 'timespec_get': symbol cannot be used in a using-declaration
+  (compiling source file 'Source/Common/Time.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xthreads.h(127,84): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Source/Common/Time.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xthreads.h(127,84): error C2143: syntax error: missing ',' before '*'
+  (compiling source file 'Source/Common/Time.cpp')
+  
+C:\Users\guill\source\repos\AnotherTest 2\GameEngine\Source\Common\Time.cpp(8,15): error C3861: 'time': identifier not found
+C:\Users\guill\source\repos\AnotherTest 2\GameEngine\Source\Common\Time.cpp(10,2): error C3861: 'localtime_s': identifier not found
+C:\Users\guill\source\repos\AnotherTest 2\GameEngine\Source\Common\Time.cpp(28,15): error C3861: 'time': identifier not found
+C:\Users\guill\source\repos\AnotherTest 2\GameEngine\Source\Common\Time.cpp(30,2): error C3861: 'localtime_s': identifier not found
+  PerGameSettings.cpp
+  GameEngine.cpp

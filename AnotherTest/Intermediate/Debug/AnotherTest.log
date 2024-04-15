@@ -1,0 +1,4 @@
+﻿  Application.cpp
+  WinMain.cpp
+  pch.cpp
+LINK : fatal error LNK1104: cannot open file 'C:\Users\guill\source\repos\AnotherTest 2\Build\GameEngine\Intermediate\Debug\GameEngine.lib'

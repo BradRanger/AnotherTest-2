@@ -1,10 +1,11 @@
 #include "GameEngine.h"
 #include <sstream>
 #include <iomanip>
+#include <ctime>
 
-std::wstring GAMEENGINE_API Time::GetTime(BOOL striped)
+std::wstring Time::GetTime(BOOL striped)
 {
-	time_t now =	time(nullptr);
+	time_t now = time(0);
 	tm ltm;
 	localtime_s(&ltm, &now);
 	std::wstringstream wss;
@@ -15,14 +16,14 @@ std::wstring GAMEENGINE_API Time::GetTime(BOOL striped)
 	if (striped) {
 		std::wstring chars = L":";
 		for (WCHAR c : chars) {
-			timeString.erase(std::remove(timeString.begin(), timeString.end(), c), timeString.end();
+			timeString.erase(std::remove(timeString.begin(), timeString.end(), c), timeString.end());
 		}
 	}
 
 	return timeString;
 } 
 
-std::wstring GAMEENGINE_API Time::GetDate(BOOL striped)
+std::wstring Time::GetDate(BOOL striped)
 {
 	time_t now = time(0);
 	tm ltm;
@@ -35,21 +36,21 @@ std::wstring GAMEENGINE_API Time::GetDate(BOOL striped)
 	if (striped) {
 		std::wstring chars = L":";
 		for (WCHAR c : chars) {
-			timeString.erase(std::remove(timeString.begin(), timeString.end(), c), timeString.end();
+			timeString.erase(std::remove(timeString.begin(), timeString.end(), c), timeString.end());
 		}
 	}
 
 	return timeString;
 }
 
-std::wstring GAMEENGINE_API Time::GetDateTimeString(BOOL striped)
+std::wstring Time::GetDateTimeString(BOOL striped)
 {
 	std::wstring timeString = GetDate(striped) + L" " + GetTime(striped);
 
 	if (striped) {
 		std::wstring chars = L" ";
 		for (WCHAR c : chars) {
-			timeString.erase(std::remove(timeString.begin(), timeString.end(), c), timeString.end();
+			timeString.erase(std::remove(timeString.begin(), timeString.end(), c), timeString.end());
 
 		}
 	}

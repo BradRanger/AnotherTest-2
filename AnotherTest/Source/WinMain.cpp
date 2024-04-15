@@ -54,7 +54,6 @@ VOID MessageLoop();
 
 
 
-
 // Initialize global variables
 VOID InitializeVariables() {
 	LoadString(HInstance(), IDS_PERGAMENAME, WindowTitle, MAX_NAME_STRING);
@@ -125,9 +124,11 @@ VOID InitializeWIndow()
 	ShowWindow(hWnd, SW_SHOW);
 
 }
-
+#include <ctime>
 VOID MessageLoop()
 {
+
+	time_t now = time(0);
 	MSG msg{ 0 };
 
 	while (msg.message != WM_QUIT) {

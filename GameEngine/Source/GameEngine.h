@@ -17,6 +17,5 @@
 
 
 #include "Common/Logger.h"
-#include "Core/PerGameSettings.h"
 #include "Common/Time.h"
-#include <ctime>
+#include "Core/PerGameSettings.h"
